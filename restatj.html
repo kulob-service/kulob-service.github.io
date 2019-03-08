@@ -1,6 +1,3 @@
-<?php
-Header("HTTP/1.1 404 Not Found");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,14 +54,19 @@ background-color:gray;
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="hotel.html">Hotel</a></li>
-          <li><a href="resta.html">Restaurant</a></li>
-          <li><a href="sight.html">Sight</a></li>
+          <li><a href="indextj.html">Асосӣ</a></li>
+          <li><a href="hoteltj.html">Меҳмонхона</a></li>
+          <li class="menu-active"><a href="restatj.html">Чойхона</a></li>
+          <li><a href="sighttj.html">Ҷойҳои тамошобоб</a></li>
           <li><a href="mp_company.html">MP Conpany</a></li>  
 
 
-              
+              <li class="menu-has-children"><a href="#">Забон</a>
+                <ul>
+                  <li><a href="resta.html">English</a></li>
+                  <li id="eng"><a href="#">Тоҷикӣ</a></li>
+                </ul>
+              </li>
               </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -76,18 +78,44 @@ background-color:gray;
  <p id="pr"><br><br><br><br><br><br></p>
 
 
-         <div align="center">
-		 
-		 
-		 <h1>Error 404</h1>
-		 <p>Entered address was invalid!<br>Please check out the accuracy of address and try to enter again.<br>We recommend you to go back to <a href="index.html">main page</a></p>
-		 <br><br>
-		 <h1>Хатогии 404</h1>
-		 <p>Суроғаи воридшуда вуҷуд надорад!<br> Аз шумо хоҳиш мекунем, то ки суроғаи воридшударо аз назар гузаронида дубора ворид намоед.<br>Ба шумо тавсия медиҳем ки ба <a href="indextj.html">саҳифаи асоси</a> баргардед.</p>
-		 </div>
-  
+          <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Чойхонаҳо</h3>
+       <!--   <p class="section-description">Here are most popular places.</p> --><br>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=" .filter-resta, .filter-coffee" class="filter-active">Ҳама</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-resta">
+            <a href="resta1.html">
+              <img src="img/portfolio/resta1.jpg" alt="">
+              <div class="details">
+                <h4>Istaravshan</h4>
+                <span></span>
+              </div>
+            </a>
+          </div>        
+
+
+         
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+       
   </main>
-  
 
   <!--==========================
     Footer

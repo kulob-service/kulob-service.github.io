@@ -1,13 +1,10 @@
-<?php
-Header("HTTP/1.1 404 Not Found");
-?>
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Kulob Service</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="restaurant in kulob, Kulob Service, Kulob, Kulob city, Tajikistan, Khatlon" name="keywords">
+  <meta content="Sight in Kulob, Kulob Service, Kulob, Kulob city, Tajikistan, Khatlon" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
@@ -31,9 +28,14 @@ Header("HTTP/1.1 404 Not Found");
   color:GREEN;
 background-color:silver;
 }
+  #logo{
+      color:silver;
+  }
 #pr{
 background-color:gray;
 }
+
+
   </style>
   <!-- =======================================================
     Name: Kulob Service
@@ -52,42 +54,78 @@ background-color:gray;
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#hero">Kulob Service</a></h1>
+        <h1><a href="#">Kulob Service</a></h1>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="hotel.html">Hotel</a></li>
-          <li><a href="resta.html">Restaurant</a></li>
-          <li><a href="sight.html">Sight</a></li>
-          <li><a href="mp_company.html">MP Conpany</a></li>  
+          <li><a href="indextj.html">Асосӣ</a></li>
+          <li><a href="hoteltj.html">Меҳмонхона</a></li>
+          <li><a href="restatj.html">Чойхона</a></li>
+          <li class="menu-active"><a href="sighttj.html">Ҷойҳои тамошобоб</a></li>
+          <li><a href="mp_company.html">MP Conpany</a></li>
 
 
-              
-              </ul>
+              <li class="menu-has-children"><a href="#">Забон</a>
+                <ul>
+                  <li><a href="sight.html">English</a></li>
+                  <li id="eng"><a href="#">Тоҷикӣ</a></li>
+                </ul>
+              </li>
+        </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
 
-
   <main id="main">
- <p id="pr"><br><br><br><br><br><br></p>
+<p id="pr"><br><br><br><br><br><br></p>
+        <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio">
+        <br><br><br>
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Sights</h3>
+          <p class="section-description">Here are most popular places.</p>
+        </div>
+        <div class="row">
 
 
-         <div align="center">
-		 
-		 
-		 <h1>Error 404</h1>
-		 <p>Entered address was invalid!<br>Please check out the accuracy of address and try to enter again.<br>We recommend you to go back to <a href="index.html">main page</a></p>
-		 <br><br>
-		 <h1>Хатогии 404</h1>
-		 <p>Суроғаи воридшуда вуҷуд надорад!<br> Аз шумо хоҳиш мекунем, то ки суроғаи воридшударо аз назар гузаронида дубора ворид намоед.<br>Ба шумо тавсия медиҳем ки ба <a href="indextj.html">саҳифаи асоси</a> баргардед.</p>
-		 </div>
-  
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-sight">
+            <a href="sight1.html">
+              <img src="img/portfolio/sight1.jpg" alt="">
+              <div class="details">
+                <h4>Mir Said Ali Hamadony's Mausaleum</h4>
+                <span></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-hotel">
+            <a href="sight2.html">
+              <img src="img/portfolio/sight2.jpg" alt="">
+              <div class="details">
+                <h4>Museum</h4>
+                <span>Ismoili Somoni street, Kulob.</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+
   </main>
-  
 
   <!--==========================
     Footer

@@ -28,6 +28,9 @@
   color:GREEN;
 background-color:silver;
 }
+#pr{
+background-color:gray;
+}
   </style>
   <!-- =======================================================
     Name: Kulob Service
@@ -52,15 +55,16 @@ background-color:silver;
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+          <li class="menu-active"><a href="resta.html">Restaurant</a></li>
+          <li><a href="sight.html">Sight</a></li>
           <li><a href="mp_company.html">MP Conpany</a></li>  
 
 
               <li class="menu-has-children"><a href="#">Language</a>
                 <ul>
-                  <li id="eng"><a href="index.html">English</a></li>
-                  <li><a href="#">Russian</a></li>
-                  <li><a href="#">Tajik</a></li>
+                  <li id="eng"><a href="#">English</a></li>
+                  <li><a href="restatj.html">Тоҷикӣ</a></li>
                 </ul>
               </li>
               </ul>
@@ -68,38 +72,11 @@ background-color:silver;
     </div>
   </header><!-- #header -->
 
-  <!--==========================
-    Hero Section
-  ============================-->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>Restaurant <br> & <br> Coffee</h1>
-      <h2>Wonder where to have lunch?</h2>
-      <a href="#portfolio" class="btn-get-started">Search</a>
-    </div>
-  </section><!-- #hero -->
+
 
   <main id="main">
+ <p id="pr"><br><br><br><br><br><br></p>
 
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Let's find the best hotel.</h2>
-            <p>
-              This site is the best for finding hotel. Prices and pictures are present, so you can choose the best one which you want.
-            </p>            
-          </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
-        </div>
-
-      </div>
-    </section><!-- #about -->
 
           <!--==========================
       Portfolio Section
@@ -107,7 +84,7 @@ background-color:silver;
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Portfolio</h3>
+          <h3 class="section-title">Coffees & Restaurants</h3>
        <!--   <p class="section-description">Here are most popular places.</p> --><br>
         </div>
         <div class="row">
@@ -115,8 +92,7 @@ background-color:silver;
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter=" .filter-resta, .filter-coffee" class="filter-active">All</li>
-              <li data-filter=".filter-resta">Restaurant</li>
-              <li data-filter=".filter-coffee">Coffee</li>
+             
             </ul>
           </div>
         </div>
@@ -138,7 +114,25 @@ background-color:silver;
 
       </div>
     </section><!-- #portfolio -->
+        <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
 
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Wonder where to have a lunch?</h2>
+            <p>
+              Here are the most popular city coffees and restaurants. Have a good meal.
+            </p>
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
     
   </main>
 
